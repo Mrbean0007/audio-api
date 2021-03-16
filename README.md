@@ -25,6 +25,6 @@ from audio import db
 db.create_all()
 
 ``` 
-## Run the app.py for generic or app2.py for generic route
+## Run the app.py for generic response base or app2.py for generic route base
 
 `python app.py`
