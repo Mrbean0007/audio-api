@@ -1,0 +1,6 @@
+Create API:
+The request will have the following fields:
+- audioFileType – mandatory, one of the 3 audio types possible
+- audioFileMetadata – mandatory, dictionary, 
+    contains the metadata 
+    for one of the three audio files (song, podcast, audiobook)
