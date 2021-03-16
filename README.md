@@ -19,8 +19,11 @@ Install the dependences from pipfile
 
 1.Enter your python shell using  `python` or `python3` in command prompt inside the same directory
 2. Import the file
-``` from audio import db
-    db.create_all()
+
+``` python
+from audio import db
+db.create_all()
+
 ``` 
 ## Run the app.py for generic or app2.py for generic route
 
