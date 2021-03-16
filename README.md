@@ -11,7 +11,7 @@ Install the dependences from pipfile
 
 1. Create .env file in same directory
 2. SECRET_KEY = 'sqlite:////tmp/test.db' 
-3. For my MySql/Postgress ='dialect+driver://username:password@host:port/database'
+3. For MySql/Postgress add SECRET_KEY = 'dialect+driver://username:password@host:port/database'
   
   [Refernce for database] (https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/#configuration-keys)
 
